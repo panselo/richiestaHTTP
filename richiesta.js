@@ -3,7 +3,6 @@ let items = [];
 
 function mostra() {
   const out = document.getElementById("output");
-  out.innerHTML = "";
 
   items.forEach(function(item) {
     const div = document.createElement("div");
@@ -77,3 +76,4 @@ function carica() {
 }
 
 carica();
+
